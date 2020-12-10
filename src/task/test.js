@@ -108,7 +108,7 @@ function Example() {
 
     return (
         <Container>
-            <Button variant="primary" onClick={() => setModalShow(true)}>Launch vertically centered modal</Button>
+            <Button variant="primary" onClick={() => setModalShow(true)}>Open modal</Button>
             <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
         </Container>
     );
